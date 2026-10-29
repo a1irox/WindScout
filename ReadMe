@@ -1,0 +1,72 @@
+WindScout
+
+Smart VPN finder for Windscribe · یابنده‌ی هوشمند VPN برای ویندسکرایب
+
+English · فارسی
+English
+
+Short description (GitHub "About"):
+
+    Smart Windscribe auto-connect & network scanner for filtered networks — finds the working server, protocol and port, and learns your network. (FA/EN)
+
+WindScout is a Windows desktop tool that finds the best working Windscribe connection on your network. It measures how your internet is filtered, tests servers, protocols and ports, then connects automatically — and gets smarter after every scan.
+Features
+
+    Smart connect – one click: checks filtering, picks the best server/protocol/port from this network's history, and watches tunnel health (auto-reconnect).
+    Real verification – a connection only counts as successful when real HTTPS passes and your exit IP/country actually changes.
+    Scanner – Smart (discover → expand), City-by-city and Chaos modes; filters by continent/city/location; port selection and protocol priority; profiles.
+    Speed test & network check – download/upload/ping, UDP availability, SNI (DPI) filtering, DNS tampering, open TCP ports, then real server suggestions.
+    Results & Best – searchable table with CSV export, stored per network; see which protocol/port works and the fastest servers.
+    Favorites and Hide IP (for screenshots/videos).
+    Bilingual UI – Persian / English (FA/EN button in the top bar).
+    Portable – bundled Python runtime, no install needed.
+
+Requirements
+
+    Windows 10/11
+    Windscribe (opens in a new tab) desktop app installed and signed in
+
+Usage
+
+    Download and extract the whole folder (don't run from inside the zip).
+    Run WindScout.exe (keep the runtime and app folders next to it).
+    If SmartScreen warns you: More info → Run anyway.
+
+Links
+
+    Telegram: https://t.me/aliroxtg (opens in a new tab)
+    Donate: https://donofa.ir/alirox (opens in a new tab)
+
+Made by A1iRoX with the help of AI.
+فارسی
+
+توضیح کوتاه (بخش About گیت‌هاب):
+
+    اتصال خودکار و اسکنر هوشمند ویندسکرایب برای شبکه‌های فیلترشده — سرور، پروتکل و پورت کارا را پیدا می‌کند و شبکه‌ی شما را یاد می‌گیرد. (فارسی/انگلیسی)
+
+ویندسکاوت یک ابزار ویندوزی است که بهترین اتصال کارای ویندسکرایب را روی شبکه‌ی شما پیدا می‌کند: وضعیت فیلترینگ را می‌سنجد، سرورها، پروتکل‌ها و پورت‌ها را تست می‌کند و خودکار وصل می‌شود؛ بعد از هر اسکن هم هوشمندتر می‌شود.
+امکانات
+
+    اتصال هوشمند – با یک کلیک: سنجش فیلترینگ، انتخاب بهترین سرور/پروتکل/پورت بر اساس سابقه‌ی همین شبکه و پایش سلامت تونل (اتصال مجدد خودکار).
+    تأیید واقعی – اتصال فقط وقتی موفق است که HTTPS واقعی رد شود و IP/کشور خروجی عوض شده باشد.
+    اسکنر – حالت‌های هوشمند (کشف ← گسترش)، شهر به شهر و Chaos؛ فیلتر قاره/شهر/لوکیشن؛ انتخاب پورت و اولویت پروتکل؛ پروفایل.
+    تست سرعت و بررسی شبکه – دانلود/آپلود/پینگ، باز بودن UDP، فیلتر SNI (DPI)، دستکاری DNS، پورت‌های TCP و پیشنهاد سرورهای واقعی.
+    نتایج و بهترین‌ها – جدول قابل جستجو با خروجی CSV، جدا برای هر شبکه.
+    علاقه‌مندی‌ها و مخفی کردن IP (برای اسکرین‌شات و ویدیو).
+    رابط دو زبانه – فارسی / انگلیسی (دکمه‌ی FA/EN بالای برنامه).
+    پرتابل – پایتون همراه برنامه است و نصب لازم ندارد.
+
+پیش‌نیاز
+
+    ویندوز ۱۰ یا ۱۱
+    برنامه‌ی ویندسکرایب نصب و وارد حساب شده باشد
+
+نحوه‌ی استفاده
+
+۱. کل پوشه را دانلود و Extract کنید (داخل زیپ اجرا نکنید). ۲. WindScout.exe را اجرا کنید (پوشه‌های runtime و app کنارش بمانند). ۳. اگر SmartScreen هشدار داد: More info ← Run anyway.
+لینک‌ها
+
+    تلگرام: https://t.me/aliroxtg (opens in a new tab)
+    حمایت: https://donofa.ir/alirox (opens in a new tab)
+
+ساخته شده توسط A1iRoX به کمک هوش مصنوعی.
