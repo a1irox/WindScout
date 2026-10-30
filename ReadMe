@@ -1,98 +1,225 @@
-# WindScout
-**Smart VPN Finder for Windscribe · یابنده هوشمند VPN برای ویندسکرایب**
+# 🌐 WindScout
 
-English · فارسی
+### Smart VPN Finder for Windscribe
+**یابنده هوشمند VPN برای ویندسکرایب**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows" />
+  <img src="https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Interface-English%20%7C%20Persian-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Portable-Yes-brightgreen?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <b>Find the best working Windscribe connection for your network — automatically.</b>
+  <br>
+  بهترین اتصال کارای ویندسکرایب را به‌صورت هوشمند و خودکار پیدا کن.
+</p>
 
 ---
 
-## English
+# 🇬🇧 English
 
-### GitHub About
-
-Smart Windscribe auto-connect and network scanner for filtered networks. Finds the best working server, protocol, and port while learning from your network conditions. (FA/EN)
-
-### Overview
+## 📖 Overview
 
 **WindScout** is a smart Windows desktop application designed to find the best working Windscribe connection for your network.
 
-It analyzes network restrictions, tests available servers, protocols, and ports, then automatically selects the most reliable connection. With every scan, it learns more about your network and improves future connection recommendations.
+It analyzes network restrictions, tests available servers, protocols, and ports, then automatically selects the most reliable connection.
 
-### Features
+With every scan, WindScout learns more about your network and improves future connection recommendations.
 
-- **Smart Connect** – Connect with one click. Analyzes network restrictions, selects the best server, protocol, and port based on previous results from the same network, and monitors tunnel health with automatic reconnection.
-- **Real Connection Verification** – A connection is considered successful only when a real HTTPS request succeeds and the external IP address and country are verified to have changed.
-- **Advanced Scanner** – Includes Smart (Discover → Expand), City-by-City, and Chaos scanning modes, with continent, city, and location filters, customizable port selection, protocol priorities, and scan profiles.
-- **Speed Test & Network Diagnostics** – Measures download speed, upload speed, and ping; checks UDP availability, SNI/DPI filtering, DNS interference, and accessible TCP ports; then provides server recommendations based on actual test results.
-- **Results & Best Servers** – Searchable results table with CSV export. Scan history is stored separately for each network, making it easy to identify working protocols, ports, and the fastest servers.
-- **Favorites & IP Hiding** – Save favorite servers and hide your IP address in screenshots and recordings.
-- **Bilingual Interface** – Fully supports Persian and English, with a convenient FA/EN toggle in the top bar.
-- **Portable** – Comes with its own bundled Python runtime. No separate Python installation or setup required.
+## ✨ Features
 
-### Requirements
+| Feature | Description |
+|:---|:---|
+| 🚀 **Smart Connect** | One-click connection with automatic server, protocol, and port selection. |
+| 🛡️ **Real Verification** | Verifies HTTPS connectivity and confirms external IP/country changes. |
+| 🔍 **Advanced Scanner** | Smart, City-by-City, and Chaos scanning modes. |
+| 🌍 **Location Filters** | Filter servers by continent, city, and location. |
+| ⚡ **Speed Test** | Measures download, upload, and ping. |
+| 🔬 **Network Diagnostics** | Checks UDP, SNI/DPI filtering, DNS interference, and TCP ports. |
+| 📊 **Results & Best Servers** | Searchable results, CSV export, and network-specific history. |
+| ⭐ **Favorites** | Save your preferred servers. |
+| 👁️ **Hide IP** | Hide your IP address in screenshots and recordings. |
+| 🌐 **Bilingual UI** | Full Persian and English interface. |
+| 📦 **Portable** | Bundled Python runtime. No separate installation required. |
 
-- Windows 10 or Windows 11
-- Windscribe desktop application installed and signed in
+## 🧠 Smart Connect
 
-### Usage
+WindScout doesn't simply test servers randomly.
 
-1. Download and extract the entire package. Do not run the application directly from inside the ZIP file.
-2. Launch `WindScout.exe`. Make sure the `runtime` and `app` folders remain alongside the executable.
-3. If Windows SmartScreen displays a warning, select **More info → Run anyway** only if you trust the application and its source.
+It uses previous scan results from the same network to make smarter connection decisions.
 
-### Links
+- Analyzes network restrictions.
+- Identifies working protocols and ports.
+- Selects the most suitable server.
+- Monitors tunnel health.
+- Attempts automatic reconnection when the connection drops.
+
+## 🔬 Network Diagnostics
+
+WindScout provides several network tests:
+
+- Download and upload speed
+- Ping measurement
+- UDP availability
+- SNI/DPI filtering detection
+- DNS interference detection
+- TCP port accessibility
+
+Test results help identify suitable Windscribe connection options.
+
+## 🔍 Scanning Modes
+
+- **Smart:** Discover working servers and expand the search based on successful results.
+- **City-by-City:** Scan servers organized by city.
+- **Chaos:** Explore servers using a less structured scanning approach.
+
+Additional options include location filters, port selection, protocol priorities, and scan profiles.
+
+## 📊 Results & History
+
+- Searchable scan results.
+- CSV export.
+- Separate history for each network.
+- Identification of working protocols and ports.
+- Comparison of server performance.
+
+## 📋 Requirements
+
+- Windows 10 / 11
+- Windscribe desktop application installed and signed in.
+
+## 🚀 Usage
+
+**1. Download**
+
+Download and extract the complete application package.
+
+**2. Run**
+
+Launch `WindScout.exe`.
+
+Make sure the `runtime` and `app` folders remain alongside the executable.
+
+**3. Windows SmartScreen**
+
+If Windows SmartScreen displays a warning, select:
+
+`More info → Run anyway`
+
+Only proceed if you trust the application and its source.
+
+## 🔗 Links
 
 - **Telegram:** https://t.me/aliroxtg
 - **Donate:** https://donofa.ir/alirox
 
 ---
 
-Made with ❤️ by **A1iRoX**, with the help of AI.
+# 🇮🇷 فارسی
 
----
-
-## فارسی
-
-### توضیح کوتاه (GitHub About)
-
-اتصال خودکار و اسکنر هوشمند ویندسکرایب برای شبکه‌های دارای محدودیت و فیلترینگ؛ سرور، پروتکل و پورت مناسب را پیدا می‌کند و با تحلیل نتایج، شرایط شبکه شما را یاد می‌گیرد. (فارسی/انگلیسی)
-
-### معرفی
+## 📖 معرفی
 
 **WindScout** یک برنامه دسکتاپ هوشمند برای ویندوز است که بهترین اتصال قابل استفاده ویندسکرایب را متناسب با شرایط شبکه شما پیدا می‌کند.
 
-این برنامه محدودیت‌ها و وضعیت فیلترینگ شبکه را بررسی می‌کند، سرورها، پروتکل‌ها و پورت‌های مختلف را آزمایش می‌کند و در نهایت بهترین گزینه را به‌صورت خودکار انتخاب می‌کند.
+این برنامه وضعیت محدودیت‌ها و فیلترینگ شبکه را بررسی می‌کند، سرورها، پروتکل‌ها و پورت‌های مختلف را آزمایش می‌کند و بهترین گزینه را به‌صورت خودکار انتخاب می‌کند.
 
-WindScout با ذخیره و تحلیل نتایج هر اسکن، به‌مرور شناخت دقیق‌تری از شرایط شبکه شما به دست می‌آورد و پیشنهادهای اتصال بهتری ارائه می‌دهد.
+WindScout با ذخیره و تحلیل نتایج اسکن‌ها، به‌مرور شناخت دقیق‌تری از شرایط شبکه شما به دست می‌آورد و پیشنهادهای اتصال بهتری ارائه می‌دهد.
 
-### امکانات
+## ✨ امکانات
 
-- **اتصال هوشمند (Smart Connect)** – اتصال تنها با یک کلیک! برنامه محدودیت‌های شبکه را بررسی می‌کند، بر اساس نتایج قبلی همان شبکه بهترین سرور، پروتکل و پورت را انتخاب می‌کند و با پایش سلامت تونل، در صورت قطع اتصال، تلاش مجدد انجام می‌دهد.
-- **تأیید واقعی اتصال** – اتصال فقط زمانی موفق محسوب می‌شود که درخواست واقعی HTTPS با موفقیت انجام شود و تغییر آدرس IP و کشور خروجی نیز تأیید شود.
-- **اسکنر پیشرفته** – شامل حالت‌های Smart (کشف ← گسترش)، City-by-City (شهر به شهر) و Chaos، همراه با فیلتر قاره، شهر و موقعیت جغرافیایی، انتخاب پورت، اولویت‌بندی پروتکل‌ها و پروفایل‌های اسکن.
-- **تست سرعت و عیب‌یابی شبکه** – اندازه‌گیری سرعت دانلود، آپلود و پینگ؛ بررسی دسترسی UDP، محدودیت‌های SNI/DPI، اختلال یا دستکاری DNS و پورت‌های قابل دسترس TCP؛ به همراه پیشنهاد سرور بر اساس نتایج واقعی آزمایش‌ها.
-- **نتایج و بهترین سرورها** – نمایش نتایج در جدولی قابل جستجو با امکان خروجی CSV. سوابق اسکن برای هر شبکه به‌صورت جداگانه ذخیره می‌شوند تا بتوانید سرورها، پروتکل‌ها و پورت‌های کارآمد و سریع‌تر را شناسایی کنید.
-- **علاقه‌مندی‌ها و مخفی‌سازی IP** – ذخیره سرورهای محبوب و مخفی کردن آدرس IP در اسکرین‌شات‌ها و ویدیوهای ضبط‌شده.
-- **رابط کاربری دو زبانه** – پشتیبانی کامل از زبان فارسی و انگلیسی با دکمه تغییر زبان FA/EN در نوار بالایی برنامه.
-- **نسخه پرتابل (Portable)** – پایتون مورد نیاز به همراه برنامه ارائه شده است؛ بنابراین نیازی به نصب جداگانه پایتون یا انجام مراحل راه‌اندازی ندارید.
+| قابلیت | توضیحات |
+|:---|:---|
+| 🚀 **اتصال هوشمند** | اتصال با یک کلیک و انتخاب خودکار سرور، پروتکل و پورت مناسب. |
+| 🛡️ **تأیید واقعی اتصال** | بررسی اتصال HTTPS و تأیید تغییر IP و کشور خروجی. |
+| 🔍 **اسکنر پیشرفته** | حالت‌های Smart، City-by-City و Chaos. |
+| 🌍 **فیلتر موقعیت** | فیلتر سرورها بر اساس قاره، شهر و موقعیت جغرافیایی. |
+| ⚡ **تست سرعت** | اندازه‌گیری سرعت دانلود، آپلود و پینگ. |
+| 🔬 **بررسی شبکه** | بررسی UDP، فیلترینگ SNI/DPI، اختلال DNS و پورت‌های TCP. |
+| 📊 **نتایج و بهترین سرورها** | جدول قابل جستجو، خروجی CSV و تاریخچه جداگانه برای هر شبکه. |
+| ⭐ **علاقه‌مندی‌ها** | ذخیره سرورهای محبوب. |
+| 👁️ **مخفی‌سازی IP** | مخفی کردن IP در اسکرین‌شات‌ها و ویدیوهای ضبط‌شده. |
+| 🌐 **رابط دو زبانه** | پشتیبانی کامل از زبان فارسی و انگلیسی. |
+| 📦 **نسخه پرتابل** | پایتون همراه برنامه ارائه شده و نصب جداگانه نیاز نیست. |
 
-### پیش‌نیازها
+## 🧠 اتصال هوشمند (Smart Connect)
+
+WindScout سرورها را صرفاً به‌صورت تصادفی آزمایش نمی‌کند؛ بلکه از نتایج اسکن‌های قبلی همان شبکه برای انتخاب هوشمندانه‌تر استفاده می‌کند.
+
+- بررسی محدودیت‌های شبکه
+- شناسایی پروتکل‌ها و پورت‌های کارآمد
+- انتخاب سرور مناسب
+- پایش سلامت تونل اتصال
+- تلاش برای اتصال مجدد در صورت قطع ارتباط
+
+## 🔬 عیب‌یابی و بررسی شبکه
+
+WindScout امکانات مختلفی برای بررسی وضعیت شبکه دارد:
+
+- اندازه‌گیری سرعت دانلود و آپلود
+- اندازه‌گیری پینگ
+- بررسی دسترسی UDP
+- شناسایی محدودیت‌های SNI/DPI
+- بررسی اختلال یا دستکاری DNS
+- بررسی دسترسی پورت‌های TCP
+
+نتایج این آزمایش‌ها به شناسایی گزینه‌های مناسب اتصال ویندسکرایب کمک می‌کنند.
+
+## 🔍 حالت‌های اسکن
+
+- **Smart:** کشف سرورهای کارآمد و گسترش جستجو بر اساس نتایج موفق.
+- **City-by-City:** اسکن سرورها به تفکیک شهر.
+- **Chaos:** بررسی سرورها با روشی کمتر ساختاریافته.
+
+امکانات تکمیلی شامل فیلتر موقعیت جغرافیایی، انتخاب پورت، اولویت‌بندی پروتکل‌ها و پروفایل‌های اسکن است.
+
+## 📊 نتایج و تاریخچه
+
+- نمایش نتایج در جدول قابل جستجو
+- امکان خروجی CSV
+- ذخیره تاریخچه به‌صورت جداگانه برای هر شبکه
+- شناسایی پروتکل‌ها و پورت‌های کارآمد
+- مقایسه عملکرد سرورها
+
+## 📋 پیش‌نیازها
 
 - ویندوز ۱۰ یا ۱۱
 - نصب بودن برنامه دسکتاپ Windscribe و ورود به حساب کاربری
 
-### نحوه استفاده
+## 🚀 نحوه استفاده
 
-۱. کل بسته برنامه را دانلود و از حالت فشرده خارج کنید. برنامه را مستقیماً از داخل فایل ZIP اجرا نکنید.
+**۱. دانلود**
 
-۲. فایل `WindScout.exe` را اجرا کنید. دقت کنید پوشه‌های `runtime` و `app` در کنار فایل اجرایی باقی بمانند.
+کل بسته برنامه را دانلود و از حالت فشرده خارج کنید.
 
-۳. اگر Windows SmartScreen هشدار نمایش داد، تنها در صورتی که به برنامه و منبع دریافت آن اعتماد دارید، گزینه **More info → Run anyway** را انتخاب کنید.
+**۲. اجرا**
 
-### لینک‌ها
+فایل `WindScout.exe` را اجرا کنید.
+
+پوشه‌های `runtime` و `app` باید در کنار فایل اجرایی باقی بمانند.
+
+**۳. هشدار Windows SmartScreen**
+
+اگر ویندوز هشدار نمایش داد، گزینه زیر را انتخاب کنید:
+
+`More info → Run anyway`
+
+فقط در صورتی ادامه دهید که به برنامه و منبع دریافت آن اعتماد دارید.
+
+## 🔗 لینک‌ها
 
 - **تلگرام:** https://t.me/aliroxtg
 - **حمایت مالی:** https://donofa.ir/alirox
 
 ---
 
+## ❤️ Credits
+
+Made with ❤️ by **A1iRoX**, with the help of AI.
+
 ساخته‌شده با ❤️ توسط **A1iRoX** با کمک هوش مصنوعی.
+
+**Disclaimer:** WindScout is an independent, community-developed project. It is not affiliated with, endorsed by, or officially supported by Windscribe.
+
+**سلب مسئولیت:** WindScout یک پروژه مستقل و توسعه‌یافته توسط جامعه کاربران است و وابستگی رسمی به Windscribe ندارد.
